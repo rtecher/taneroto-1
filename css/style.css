@@ -162,6 +162,16 @@ section {
 		font-size: 1.5em
 	}
 }
+.logo-logohover {
+    padding: 30px;
+    margin: 5px 0 0 10px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+.logo-logohover:hover {
+    background-image: url(../images/logohover.png);
+    background-repeat: no-repeat;
+}
 
 /*--------------------
 3. Header
@@ -632,7 +642,7 @@ footer p a span {
 --------------------*/
 
 .modal-content {
-	border-radius: 0;	
+    border-radius: 0;
 }
 .modal-header .close {
 	font-size: 30px;	
