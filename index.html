@@ -292,8 +292,12 @@
 			</div>
 			<div class="row">
 				<script>
-					function myFunction() {
+					function myFunction(el) {
 						var x = document.getElementById("myDIV");
+						if ( el.value === "Daha Fazla" )
+							el.value = "Daha Az";
+						else
+							el.value = "Daha Fazla";
 						if (x.style.display === "none") {
 							x.style.display = "block";
 						} else {
@@ -616,7 +620,10 @@
 				</div>
 				<!-- end portfolio item -->
 				</div>
-				<button id="hidebutton" onclick="myFunction()">Bayilerimiz</button>
+				<div class="butonortala">
+					<input type="button" id="hidebutton" onclick="myFunction(this)" value="Daha Fazla"/>
+				</div>
+				
 			</div><!-- end container -->
 		</section>
 		<section id="contact">

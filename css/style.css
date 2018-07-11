@@ -83,7 +83,9 @@ a, a:hover, a:focus, a:active, a.active {
 section {
     padding: 70px 0;
 }
-
+.butonortala {
+    text-align: center;
+}
 #hidebutton {
     color: #fff;
     background-color: #726FB9;
@@ -94,7 +96,8 @@ section {
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
-	text-align: center;
+    text-align: center;
+    
 }	
 
 /*--------------------
